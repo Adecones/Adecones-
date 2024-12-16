@@ -1,7 +1,9 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADECONES - Bienvenidos</title>
+    <title>ADECONES - Sube tu Contenido</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -10,30 +12,41 @@
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="about.html">Nosotros</a></li>
-                <li><a href="offices.html">Oficinas Virtuales</a></li>
-                <li><a href="support.html">Inquietudes</a></li>
-                <li><a href="dashboard.html">Gestión Interna</a></li>
+                <li><a href="publicaciones.html">Publicaciones</a></li>
+                <li><a href="subir.html">Sube tu Contenido</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section>
-            <h2>Bienvenidos a ADECONES</h2>
-            <p>Un espacio virtual para promover y defender los derechos de las comunidades negras.</p>
-        </section>
-        <section>
-            <h2>Nuestros Valores</h2>
-            <ul>
-                <li>Inclusión</li>
-                <li>Justicia</li>
-                <li>Igualdad</li>
-            </ul>
+            <h2>Sube tu Contenido</h2>
+            <p>Comparte tus noticias, eventos, imágenes o artículos con nuestra comunidad.</p>
+            <form action="upload.php" method="POST" enctype="multipart/form-data">
+                <label for="titulo">Título del Contenido:</label>
+                <input type="text" id="titulo" name="titulo" required>
+                
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" rows="5" required></textarea>
+                
+                <label for="categoria">Categoría:</label>
+                <select id="categoria" name="categoria">
+                    <option value="noticia">Noticia</option>
+                    <option value="evento">Evento</option>
+                    <option value="social">Social</option>
+                    <option value="informativo">Informativo</option>
+                </select>
+                
+                <label for="archivo">Subir Archivo:</label>
+                <input type="file" id="archivo" name="archivo" accept="image/*,video/*,application/pdf" required>
+                
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
+
     <footer>
-        <p>&copy; 2000 ADECONES. Todos los derechos reservados.</p>
+        <p>&copy; 2024 ADECONES. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
-body >
