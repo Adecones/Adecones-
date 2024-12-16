@@ -34,31 +34,8 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 ADECONES. Todos los derechos reservados.</p>
+        <p>&copy; 2000 ADECONES. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
-body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background: #0044cc;
-    color: white;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-}
-
-nav ul li {
+body >
