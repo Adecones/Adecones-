@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>ADECONES - Asociación de Desarrollo Comunitario en San Antero</title>
+  <title>ADECONES - Asociación por los Derechos de las Comunidades Negras de San Antero</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -38,19 +38,7 @@
   </section>
 
   <!-- Sección de Proyectos -->
-  <section id="proyectos" class="proyectos">
-    <h2>Proyectos</h2>
-    <div class="proyecto">
-      <img src="proyecto1.jpg" alt="Proyecto 1">
-      <h3>Proyecto de Educación para Niños Afrodescendientes</h3>
-      <p>Brindar apoyo educativo y material a niños en comunidades afrodescendientes.</p>
-      <a href="#">Leer más</a>
-    </div>
-    <div class="proyecto">
-      <img src="proyecto2.jpg" alt="Proyecto 2">
-      <h3>Programa de Salud Comunitaria</h3>
-      <p>Promover la salud y el bienestar a través de campañas de prevención y atención médica.</p>
-      <a href="#">Leer más</a>
+
     </div>
   </section>
 
@@ -97,7 +85,7 @@
         <li><a href="#">Redes Sociales</a></li>
       </ul>
     </div>
-    <p>&copy; 2024 ADECONES - Todos los derechos reservados</p>
+    <p>&copy; 1996 ADECONES - Todos los derechos reservados</p>
   </footer>
 
 </body>
